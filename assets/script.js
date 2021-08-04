@@ -42,10 +42,10 @@ const createObstacle = setInterval(() =>{
   comet.classList.add('comets');
 
   let cometLeft = parseInt(window.getComputedStyle(comet).getPropertyValue('left'));
-  comet.style.left = Math.floor(Math.random() * 400) + 'px';
+  comet.style.left = Math.floor(Math.random() * 350) + 'px';
 
   gameboard.appendChild(comet);
-}, 1000);
+}, 2000);
 
 //This function make the new created divs/comets to move from top to bottom.
 const MoveObstacle = setInterval(() => {
