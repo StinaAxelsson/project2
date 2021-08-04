@@ -3,6 +3,8 @@
 const player = document.getElementById('player');
 const board = document.getElementById('gameboard');
 
+let cometInterval;
+let score = 0;
 
 
 // Touchevent and function for playing on a touch screen, for moving the player.
@@ -40,8 +42,6 @@ window.addEventListener("keydown", (e) => {
 const createObstacle = setInterval(() =>{
   const comet = document.createElement('div');
   comet.classList.add('comets');
-
-  let cometLeft = parseInt(window.getComputedStyle(comet).getPropertyValue('left'));
   comet.style.left = Math.floor(Math.random() * 350) + 'px';
 
   gameboard.appendChild(comet);
@@ -59,3 +59,21 @@ const MoveObstacle = setInterval(() => {
     }
   }
 }, 400);
+
+function checkCollision(){
+
+}
+
+function setScore(){
+
+}
+
+
+function startGame(){
+
+}
+
+function GameOver(){
+
+}
+

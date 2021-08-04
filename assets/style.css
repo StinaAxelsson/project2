@@ -8,6 +8,8 @@
     height: 30em;
     display: flex;
     border: 1px solid black;
+    background-image: url(../assets/images/spacebg.png);
+    background-repeat: no-repeat;
     position: relative;
     cursor: none;
     margin: 0 auto;
