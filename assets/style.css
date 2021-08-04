@@ -31,3 +31,13 @@
     top: 0px;
     left:50%;
 }
+
+.comets{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    background: url(../assets/images/comet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
