@@ -52,11 +52,14 @@ const MoveObstacle = setInterval(() => {
       let comet = comets[i];
       let cometTop = parseInt(window.getComputedStyle(comet).getPropertyValue('top'));
 
-      comet.style.top = cometTop + 25 + 'px'
-      
+      if (cometTop >= 350 ) {
+        alert("Game Over");
+        clearInterval(MoveObstacle);
+        window.location.reload(); 
     }
-    
+    comet.style.top = cometTop + 25 + 'px'
   }
+}
   
 }, 400);
 
