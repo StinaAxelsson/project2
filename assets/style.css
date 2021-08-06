@@ -20,8 +20,6 @@
     height: 50px;
     position: absolute;
     pointer-events: none;
-    background-image: url(../assets/images/millennium-falcon.png);
-    background-repeat: no-repeat;
     top: 400px;
     left:50%;
     

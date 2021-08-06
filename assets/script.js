@@ -33,7 +33,7 @@ window.addEventListener("keydown", (e) => {
 
 });
 // This function create an interval of new divs with new comets that randomly will appaere on the gameboard.
-const createObstacle = setInterval(() =>{
+setInterval(function createObstacle() {
   const comet = document.createElement('div');
   comet.classList.add('comets');
   comet.style.left = Math.floor(Math.random() * 350) + 'px';
@@ -45,21 +45,21 @@ const createObstacle = setInterval(() =>{
 }, 2000);
 
 //This function make the new created divs/comets to move from top to bottom.
-const MoveObstacle = setInterval(() => {
+setInterval(function MoveObstacle() {
   const comets = document.getElementsByClassName('comets');
   if (comets != undefined) {
     for (let i = 0; i < comets.length; i++){
       let comet = comets[i];
       let cometTop = parseInt(window.getComputedStyle(comet).getPropertyValue('top'));
-
+     
     comet.style.top = cometTop + 25 + 'px'
   }
 }
   
 }, 400);
 
-function checkCollision(player, comets){
-  let cometbound = comets.getBoundingClientRect();
+function checkCollision(player, comet){
+  let cometbound = comet.getBoundingClientRect();
   let playerbound = player.getBoundingClientRect();
 
   if(playerbound.left >= cometbound.left &&
