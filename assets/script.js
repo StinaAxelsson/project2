@@ -4,6 +4,7 @@ const player = document.getElementById('player');
 const board = document.getElementById('gameboard');
 
 
+
 let score = 0;
 
 
@@ -40,36 +41,35 @@ setInterval(function createObstacle() {
 
   gameboard.appendChild(comet);
 
-  
-
 }, 2000);
 
-//This function make the new created divs/comets to move from top to bottom.
-setInterval(function MoveObstacle() {
+//This function make the new created divs/comets to move from top to bottom in random order
+let MoveObstacle = setInterval(function() {
   const comets = document.getElementsByClassName('comets');
   if (comets != undefined) {
     for (let i = 0; i < comets.length; i++){
       let comet = comets[i];
       let cometTop = parseInt(window.getComputedStyle(comet).getPropertyValue('top'));
-     // console.log(cometTop);
-      let cometBottom = parseInt(window.getComputedStyle(comet).getPropertyValue('bottom'));
-     // console.log(cometBottom);
 
-
-      let playerTop = parseInt(window.getComputedStyle(player).getPropertyValue('top'));
-      console.log(playerTop);
-   
-      let playerBottom = parseInt(window.getComputedStyle(player).getPropertyValue('bottom'));
-      console.log(playerBottom);
-
-        
+      let enemyPos = comet.getBoundingClientRect(); 
+      let characterPos = player.getBoundingClientRect(); 
+    
+     
+      if (enemyPos.left >= characterPos.right || characterPos.left >= enemyPos.right) {
+      }
+      else if (enemyPos.bottom <= characterPos.top || characterPos.bottom <= enemyPos.top) {
+      }
+      else {
+          alert("Game Over");
+          clearInterval(MoveObstacle);
+          window.location.reload(); 
+      }  
     
     comet.style.top = cometTop + 25 + 'px'
   }
 }
   
 }, 400);
-
 
 
 
