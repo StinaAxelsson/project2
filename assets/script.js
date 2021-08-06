@@ -51,26 +51,26 @@ setInterval(function MoveObstacle() {
     for (let i = 0; i < comets.length; i++){
       let comet = comets[i];
       let cometTop = parseInt(window.getComputedStyle(comet).getPropertyValue('top'));
-     
+     // console.log(cometTop);
+      let cometBottom = parseInt(window.getComputedStyle(comet).getPropertyValue('bottom'));
+     // console.log(cometBottom);
+
+
+      let playerTop = parseInt(window.getComputedStyle(player).getPropertyValue('top'));
+      console.log(playerTop);
+   
+      let playerBottom = parseInt(window.getComputedStyle(player).getPropertyValue('bottom'));
+      console.log(playerBottom);
+
+        
+    
     comet.style.top = cometTop + 25 + 'px'
   }
 }
   
 }, 400);
 
-function checkCollision(player, comet){
-  let cometbound = comet.getBoundingClientRect();
-  let playerbound = player.getBoundingClientRect();
 
-  if(playerbound.left >= cometbound.left &&
-    playerbound.right <= cometbound.right &&
-    playerbound.top <= cometbound.top &&
-    playerbound.bottom <= cometbound.bottom)
-  {
-    alert('game over');
-
-  }
-}
 
 
 function setScore(){
