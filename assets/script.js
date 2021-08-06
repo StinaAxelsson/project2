@@ -52,19 +52,24 @@ const MoveObstacle = setInterval(() => {
       let comet = comets[i];
       let cometTop = parseInt(window.getComputedStyle(comet).getPropertyValue('top'));
 
-      if (cometTop >= 350 ) {
-        alert("Game Over");
-        clearInterval(MoveObstacle);
-        window.location.reload(); 
-    }
     comet.style.top = cometTop + 25 + 'px'
   }
 }
   
 }, 400);
 
-function checkCollision(){
+function checkCollision(player, comets){
+  let cometbound = comets.getBoundingClientRect();
+  let playerbound = player.getBoundingClientRect();
 
+  if(playerbound.left >= cometbound.left &&
+    playerbound.right <= cometbound.right &&
+    playerbound.top <= cometbound.top &&
+    playerbound.bottom <= cometbound.bottom)
+  {
+    alert('game over');
+
+  }
 }
 
 
