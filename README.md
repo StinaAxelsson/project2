@@ -1,9 +1,3 @@
 # project2
 
-    let top = parseInt(window.getComputedStyle(player).getPropertyValue("top"));
-    if (e.key == "ArrowUp" && top > 0) {
-        player.style.top = top - 20 + "px";
-      }
-      else if (e.key == "ArrowDown" && top <= 400) {
-        player.style.top = top + 20 + "px";
-      }
+<a target="_blank" href="https://icons8.com/icon/23095/money-bag">Money Bag</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>

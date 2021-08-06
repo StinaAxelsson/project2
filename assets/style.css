@@ -43,3 +43,20 @@
     background-size: cover;
     
 }
+
+#obstacle{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    pointer-events: none;
+    top: 0px;
+    left:50%;
+}
+.money{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-image: url(../assets/images/money.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

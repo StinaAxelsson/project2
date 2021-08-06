@@ -3,8 +3,6 @@
 const player = document.getElementById('player');
 const board = document.getElementById('gameboard');
 
-
-
 let score = 0;
 
 
@@ -33,7 +31,9 @@ window.addEventListener("keydown", (e) => {
     }
 
 });
-// This function create an interval of new divs with new comets that randomly will appaere on the gameboard.
+/**
+ * This function create new divs with obstacles/comets in random order.
+ */
 setInterval(function createObstacle() {
   const comet = document.createElement('div');
   comet.classList.add('comets');
@@ -43,42 +43,93 @@ setInterval(function createObstacle() {
 
 }, 2000);
 
-//This function make the new created divs/comets to move from top to bottom in random order
-let MoveObstacle = setInterval(function() {
+/**
+ * This function is the same as the "createObstacle" but insted it create 
+ * new divs with money bags.
+ */
+setInterval(function createMoney() {
+  const money = document.createElement('div');
+  money.classList.add('money');
+  money.style.left = Math.floor(Math.random() * 350) + 'px';
+
+  gameboard.appendChild(money);
+  
+}, 3000);
+
+/**
+ * This function make the obstacles/comets fall from the top of the board
+ * and when they hit the player, the game stops.
+ */
+let moveObstacle = setInterval(function() {
   const comets = document.getElementsByClassName('comets');
   if (comets != undefined) {
     for (let i = 0; i < comets.length; i++){
       let comet = comets[i];
       let cometTop = parseInt(window.getComputedStyle(comet).getPropertyValue('top'));
 
-      let enemyPos = comet.getBoundingClientRect(); 
-      let characterPos = player.getBoundingClientRect(); 
+      let cometPos = comet.getBoundingClientRect(); 
+      let playerPos = player.getBoundingClientRect(); 
     
      
-      if (enemyPos.left >= characterPos.right || characterPos.left >= enemyPos.right) {
+      if (cometPos.left >= playerPos.right || playerPos.left >= cometPos.right) {
       }
-      else if (enemyPos.bottom <= characterPos.top || characterPos.bottom <= enemyPos.top) {
+      else if (cometPos.bottom <= playerPos.top || playerPos.bottom <= cometPos.top) {
       }
       else {
-          alert("Game Over");
-          clearInterval(MoveObstacle);
-          window.location.reload(); 
+          gameOver();
+
       }  
     
     comet.style.top = cometTop + 25 + 'px'
   }
 }
   
-}, 400);
+}, 200);
 
+/**
+ * This function make the moneybags fall down from the top in random intervals.
+ */
+let moveMoney = setInterval(function() {
+  const moneyBag = document.querySelectorAll('.money');
+  if (moneyBag != undefined) {
+    for (let i = 0; i < moneyBag.length; i++){
+      let money= moneyBag[i];
+      let moneyTop = parseInt(window.getComputedStyle(money).getPropertyValue('top'));
 
+      let moneyPos = money.getBoundingClientRect(); 
+      let playerPos = player.getBoundingClientRect(); 
+    
+     
+      if (moneyPos.left >= playerPos.right || playerPos.left >= moneyPos.right) {
+      }
+      else if (moneyPos.bottom <= playerPos.top || playerPos.bottom <= moneyPos.top) {
+      }
+      else {
+          score++;
+          scoreboardRefresh();
+          money.classList.remove('money');
+          money.classList.add('collected-money');
+          console.log('points');
+      }  
+    
+    money.style.top = moneyTop + 25 + 'px'
+  }
+}
+  
+}, 200);
 
-function setScore(){
-
+let scoreboardRefresh = () => {
+  document.getElementById("score").innerHTML = "Score: " + score;
 }
 
 
-function GameOver(){
+function gameOver(){
+  score = 0;
+  clearInterval(moveObstacle);
+  clearInterval(moveMoney);
 
+setTimeout(() => {
+  document.getElementById('menu-btn').innerHTML = "RESTART";
+})
 }
 
