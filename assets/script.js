@@ -3,12 +3,12 @@
 const player = document.getElementById('player');
 const board = document.getElementById('gameboard');
 const startBtn = document.getElementById('menu-btn')
-const gameoverBtn = document.getElementById('game-over').style.display = 'none';
+const gameoverBtn = document.getElementById('game-over');
 
 
 let score = 0;
 
-
+gameoverBtn.style.display = 'none';
 
 
 
