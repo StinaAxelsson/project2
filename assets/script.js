@@ -2,8 +2,13 @@
 //CONST variables
 const player = document.getElementById('player');
 const board = document.getElementById('gameboard');
+const startBtn = document.getElementById('menu-btn')
+const gameoverBtn = document.getElementById('game-over').style.display = 'none';
+
 
 let score = 0;
+
+
 
 
 
@@ -37,7 +42,7 @@ window.addEventListener("keydown", (e) => {
 let = createObstacle = setInterval(function() {
   const comet = document.createElement('div');
   comet.classList.add('comets');
-  comet.style.left = Math.floor(Math.random() * 350) + 'px';
+  comet.style.left = Math.floor(Math.random() * 300) + 'px';
 
   gameboard.appendChild(comet);
 
@@ -131,7 +136,8 @@ function gameOver(){
   clearInterval(createObstacle);
 
 setTimeout(() => {
-  document.getElementById('menu-btn').innerHTML = "RESTART";
+  document.getElementById('game-over').style.display = 'block';
+  
 })
 }
 
