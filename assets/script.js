@@ -34,7 +34,7 @@ window.addEventListener("keydown", (e) => {
 /**
  * This function create new divs with obstacles/comets in random order.
  */
-setInterval(function createObstacle() {
+let = createObstacle = setInterval(function() {
   const comet = document.createElement('div');
   comet.classList.add('comets');
   comet.style.left = Math.floor(Math.random() * 350) + 'px';
@@ -47,7 +47,7 @@ setInterval(function createObstacle() {
  * This function is the same as the "createObstacle" but insted it create 
  * new divs with money bags.
  */
-setInterval(function createMoney() {
+let createMoney = setInterval(function() {
   const money = document.createElement('div');
   money.classList.add('money');
   money.style.left = Math.floor(Math.random() * 350) + 'px';
@@ -127,6 +127,8 @@ function gameOver(){
   score = 0;
   clearInterval(moveObstacle);
   clearInterval(moveMoney);
+  clearInterval(createMoney);
+  clearInterval(createObstacle);
 
 setTimeout(() => {
   document.getElementById('menu-btn').innerHTML = "RESTART";
