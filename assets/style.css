@@ -3,6 +3,62 @@
     overflow: hidden;
     
 }
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/images/main-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-family: Tourney, sans-serif;
+    font-size: 45px;
+    padding: 1%;
+    margin-top: 20px;
+    text-align: center;
+    color: #dd99ff;
+}
+
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: rgba(255, 230, 242, 0.4);
+    width: 50%;
+    height: 60vh;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.how-to-btn, .start-game-btn {
+    text-align: center;
+    padding: 2%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    background-color: #dd99ff;
+    border-radius: 20px;
+    width: 50%;
+    
+    
+}
+a{
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    padding: 2%;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+
+}
+.how-to-btn:hover, .start-game-btn:hover{
+    cursor: pointer;
+    background-color: #b31aff;
+}
+
+
 .wrapper{
     display: flex;
     flex-direction: row;
@@ -88,4 +144,16 @@
     background-image: url(../assets/images/money.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+footer{
+
+width: 100%;
+height: 35px;
+}
+footer p{
+    font-size: 25px;
+    font-family: Robota, sans-serif;
+    text-align: center;
+    color: white;
 }
