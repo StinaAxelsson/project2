@@ -6,9 +6,12 @@ const startBtn = document.getElementById('menu-btn')
 const gameoverBtn = document.getElementById('game-over');
 
 
+//const backgroundMusic = new Audio('assets/sounds/background.mp3');
+const coinSound = new Audio('assets/sounds/coins.mp3');
 let score = 0;
 
 gameoverBtn.style.display = 'none';
+
 
 
 
@@ -110,7 +113,9 @@ let moveMoney = setInterval(function() {
       else if (moneyPos.bottom <= playerPos.top || playerPos.bottom <= moneyPos.top) {
       }
       else {
+        
           score++;
+          coinSound.play();
           scoreboardRefresh();
           money.classList.remove('money');
           money.classList.add('collected-money');
