@@ -27,13 +27,17 @@ h1{
     height: 60vh;
     margin: 0 auto;
     border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+
 }
 .how-to-btn, .start-game-btn {
     text-align: center;
     padding: 2%;
     margin: 0 auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border: 1px solid black;
     background-color: #dd99ff;
     border-radius: 20px;
@@ -122,15 +126,15 @@ h2{
     font-family: Tourney;
 }
 
-#reset{
+.reset{
     font-size: 18px;
     font-family: Roboto;   
 
 }
-#reset:hover{
+.reset:hover{
     cursor: pointer;
     border-radius: 1px solid black;
-    color: aquamarine;
+    color: white;
 }
 /*gameboard*/
 #gameboard{
