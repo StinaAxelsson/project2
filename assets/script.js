@@ -29,10 +29,10 @@ window.addEventListener("keydown", (e) => {
 
     let left = parseInt(window.getComputedStyle(player).getPropertyValue("left"));
     if (e.key == "ArrowLeft" && left >=0) {
-      player.style.left = left - 20 + "px";
+      player.style.left = left - 30 + "px";
     }
     else if (e.key == "ArrowRight" && left <= 350) {
-      player.style.left = left + 20 + "px";
+      player.style.left = left + 30 + "px";
     }
 
 });
@@ -59,7 +59,7 @@ let createMoney = setInterval(function() {
 
   gameboard.appendChild(money);
   
-}, 3000);
+}, 2000);
 
 /**
  * This function make the obstacles/comets fall from the top of the board
