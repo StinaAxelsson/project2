@@ -75,10 +75,10 @@ let moveObstacle = setInterval(function() {
       let comet = comets[i];
       let cometTop = parseInt(window.getComputedStyle(comet).getPropertyValue('top'));
 
-      let cometPos = comet.getBoundingClientRect(); 
-      let playerPos = player.getBoundingClientRect(); 
+      let cometPos = comet.getBoundingClientRect(); //method to find comet-divs top,right,left and bottom side
+      let playerPos = player.getBoundingClientRect(); //method to find the player-divs top,right,left and bottom side
     
-     
+     //If statement for a collision detection when comets hit the player
       if (cometPos.left >= playerPos.right || playerPos.left >= cometPos.right) {
       }
       else if (cometPos.bottom <= playerPos.top || playerPos.bottom <= cometPos.top) {
@@ -104,20 +104,19 @@ let moveMoney = setInterval(function() {
       let money= moneyBag[i];
       let moneyTop = parseInt(window.getComputedStyle(money).getPropertyValue('top'));
 
-      let moneyPos = money.getBoundingClientRect(); 
-      let playerPos = player.getBoundingClientRect(); 
+      let moneyPos = money.getBoundingClientRect(); //method to find money-divs top,right,left and bottom side
+      let playerPos = player.getBoundingClientRect(); //method to find the player-divs top,right,left and bottom side
     
-     
+     //If statement for a collision detection when player hit a moneyBag.
       if (moneyPos.left >= playerPos.right || playerPos.left >= moneyPos.right) {
       }
       else if (moneyPos.bottom <= playerPos.top || playerPos.bottom <= moneyPos.top) {
       }
       else {
-        
-          score++;
-          coinSound.play();
-          scoreboardRefresh();
-          money.classList.remove('money');
+          score++; //add score 
+          scoreboardRefresh(); 
+          coinSound.play(); //play sound
+          money.classList.remove('money'); //remove the moneybag from screen
           money.classList.add('collected-money');
           console.log('points');
       }  
@@ -129,10 +128,13 @@ let moveMoney = setInterval(function() {
 }, 200);
 
 let scoreboardRefresh = () => {
-  document.getElementById("score").innerHTML = "Score: " + score;
+  document.getElementById("score").innerHTML = "Score: " + score; //Adds score when hit a moneybag.
 }
 
-
+/**
+ * When player hits a comet, the game stops and its game over, and if the player press "play again" 
+ * the game starts over.
+ */
 function gameOver(){
   score = 0;
   clearInterval(moveObstacle);

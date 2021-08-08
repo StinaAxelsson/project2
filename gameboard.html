@@ -8,20 +8,21 @@
     <title>Space Race</title>
 </head>
 <body>
+    <!--This page is the gameboard and the DOM page to the script-->
     <div>
         <h1>Space Race</h1>
     </div>
     <div class="wrapper">
-        <div class="score-div">
-            <h3 id="score">Score: <span>0</span></h3>
+        <div class="score-div"> <!--This div contains the score and a link back to menu-->
+            <h3 id="score">Score: <span>0</span></h3> 
         </div>
        <div class="back-to-menu"><a class="back-to-menu"href="index.html">Back to menu</a></div> 
     </div>
     <div id="gameboard">
-         <img id="player" src="assets/images/millennium-falcon.png" alt=""> 
-       <div id="obstacle"></div>
-       <div id="coins"></div>
-       <div id="game-over">
+         <img id="player" src="assets/images/millennium-falcon.png" alt=""> <!--Millenuium falcon player-->
+       <div id="obstacle"></div> <!--The comets that will fall from the top of the board-->
+       <div id="coins"></div> <!--The moneybags that will fall from the top to collect-->
+       <div id="game-over"> <!--Game over button with links to reset or back to menu-->
            <p>Oh no! You got hit by a comet!</p>
 
            <a href="gameboard.html" class="reset">Play again</a>
@@ -29,10 +30,12 @@
            <a href="index.html" class="reset">Back to menu</a>
         </div>
     </div>
+    <!--Script for millenium falcoon player-->
     <script src="assets/script.js"></script>
     <footer>
         <p class="footer-text">This game is Developed by @StinaAxelsson </p>
     </footer>
+    <!--The sounds in the game-->
     <audio src="assets/sounds/background.mp3"></audio>
     <audio id="coincollect" src="assets/sounds/coins.mp3" preload="auto" ></audio>
 </body>
