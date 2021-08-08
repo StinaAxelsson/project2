@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tourney:wght@700&display=swap');
 *{
+
     overflow: hidden;
     
 }
@@ -22,10 +23,9 @@ h1{
 }
 
 .menu-container{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
+   
+   
+
     background-color: rgba(255, 230, 242, 0.4);
     width: 50%;
     height: 60vh;
@@ -75,6 +75,38 @@ a{
     font-family: Roboto, Touney;
    
 }
+#start-game{
+    text-align: center;
+    height: 100%;
+}
+
+h2{
+    font-size: 30px;
+    font-family: Tourney, sans-serif;
+    text-align: center;
+}
+.ship-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 4rem;
+    justify-content: space-around;
+}
+#start-game p{
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    padding: 1%;
+    margin: 1rem;
+}
+.hover{
+    text-align: center;
+    padding: 2%;
+    border-radius: 20px;
+}
+.hover:hover{
+    background-color: rgba(255, 230, 242, 0.4);
+}
+/*game over*/
 #game-over{
     width: 15em;
     height: 10em;
@@ -88,7 +120,7 @@ a{
     z-index: 2;
     
 }
-
+/*gameboard*/
 #gameboard{
     width: 25em;
     height: 30em;
@@ -153,9 +185,13 @@ width: 100%;
 height: 35px;
 }
 
-footer p{
+.footer-text {
     font-size: 16px;
     font-family: Robota, sans-serif;
     text-align: center;
     color: white;
 }
+@media screen and (max-width: 960px){
+
+}
+
