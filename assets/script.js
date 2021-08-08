@@ -46,7 +46,7 @@ let = createObstacle = setInterval(function() {
 
   gameboard.appendChild(comet);
 
-}, 2000);
+}, 1000);
 
 /**
  * This function is the same as the "createObstacle" but insted it create 
@@ -134,6 +134,8 @@ function gameOver(){
   clearInterval(moveMoney);
   clearInterval(createMoney);
   clearInterval(createObstacle);
+  let ship = document.querySelectorAll('#player');
+  ship.forEach((player) => player.remove());
 
 setTimeout(() => {
   document.getElementById('game-over').style.display = 'block';
