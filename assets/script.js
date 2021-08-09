@@ -149,3 +149,10 @@ setTimeout(() => {
 })
 }
 
+function setPlayerImage(){
+  const imageUrl = localStorage.getItem('playerImageUrl');
+  if (imageUrl) {
+    document.getElementById("player").src = imageUrl;
+  }
+}
+
