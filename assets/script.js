@@ -2,7 +2,6 @@
 //CONST variables
 const player = document.getElementById('player');
 const board = document.getElementById('gameboard');
-const startBtn = document.getElementById('menu-btn')
 const gameoverBtn = document.getElementById('game-over');
 
 
