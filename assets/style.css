@@ -9,9 +9,10 @@ body{
 }
 
 h1{
+    display: inline;
     font-family: Tourney, sans-serif;
     font-size: 50px;
-    text-align: center;
+    margin: 0 auto;
     color: #dd99ff;
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
 
@@ -272,6 +273,7 @@ h2{
 }
 
 .sidebar, .close-btn{
+    display: inline;
     position: absolute;
     top: 0;
     right: 25px;
@@ -305,6 +307,21 @@ height: 35px;
     font-family: Robota, sans-serif;
     text-align: center;
     color: #dd99ff;
+}
+.social-div {
+
+    text-align: center;
+    font-size: 25px;
+    margin: 0 auto;
+    
+}
+.social-media {
+    text-align: center;
+    padding: 15px;
+    color: #dd99ff;
+}
+.social-media:hover{
+    color: blueviolet;
 }
 
 @media screen and (max-width: 700px){
