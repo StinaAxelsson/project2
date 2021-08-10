@@ -46,7 +46,7 @@ let = createObstacle = setInterval(function() {
   comet.classList.add('comets');
   comet.style.left = Math.floor(Math.random() * 300) + 'px';
 
-  gameboard.appendChild(comet);
+  board.appendChild(comet);
 
 }, 1000);
 
@@ -59,7 +59,7 @@ let createMoney = setInterval(function() {
   money.classList.add('money');
   money.style.left = Math.floor(Math.random() * 350) + 'px';
 
-  gameboard.appendChild(money);
+  board.appendChild(money);
   
 }, 2000);
 
@@ -87,7 +87,7 @@ let moveObstacle = setInterval(function() {
 
       }  
     
-    comet.style.top = cometTop + 25 + 'px'
+    comet.style.top = cometTop + 25 + 'px';
   }
 }
   
@@ -120,7 +120,7 @@ let moveMoney = setInterval(function() {
           console.log('points');
       }  
     
-    money.style.top = moneyTop + 25 + 'px'
+    money.style.top = moneyTop + 25 + 'px';
   }
 }
   
@@ -128,7 +128,7 @@ let moveMoney = setInterval(function() {
 
 let scoreboardRefresh = () => {
   document.getElementById("score").innerHTML = "Score: " + score; //Adds score when hit a moneybag.
-}
+};
 
 /**
  * When player hits a comet, the game stops and its game over, and if the player press "play again" 
@@ -146,7 +146,7 @@ function gameOver(){
 setTimeout(() => {
   document.getElementById('game-over').style.display = 'block';
   
-})
+});
 }
 
 function setPlayerImage(){
