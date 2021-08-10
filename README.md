@@ -57,6 +57,11 @@ This project is developed as my second Portfolio Project assignment during my co
 # Deployment
 
 # Credits
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow -shadow
+https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp - sidebar
+https://jsbin.com/depo/1/edit?js,output - touch event
+https://github.com/learnmux/Space-Shooter-Game-Using-Javascript/blob/main/app.js - key event and inerval for comets and money
+https://freesound.org/people/The-Sacha-Rush/sounds/336935/ -coin sound
 ## Content
 ## Media
 
