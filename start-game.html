@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Space Race</title>
 </head>
 <body>
     <header>
+        <!--sidebar/ hamburger menu-->
         <div id="menu-sidebar" class="sidebar">
             <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">X</a>
             <a href="how-to.html">Instructions</a>
@@ -24,33 +25,34 @@
         <h2>Choose player</h2>
         <div id="menu-container">
             <div id="start-game">
-                <!--This is the three different spaceships to choose between-->
+                <!--This is the three different spaceships to choose between to play as in the game-->
                 <div class="ship-container">
                 <div class="hover">
                     <button onclick="startGame('assets/images/millennium-falcon.png')" class="player">
-                    <img src="assets/images/millennium-falcon.png" alt="">
+                    <img src="assets/images/millennium-falcon.png" alt="image of an icon millennium-falcon ship to choose as player">
                     <p>Millennial Falcon</p>
                     </button>
                 </div>
                 <div class="hover">
                     <button onclick="startGame('assets/images/uss-discovery.png')" class="player" >
-                    <img src="assets/images/uss-discovery.png" alt="">
+                    <img src="assets/images/uss-discovery.png" alt="image of an icon uss Discovery ship to choose as player">
                     <p>USS Discovery</p>
                     </button>
                 </div>
                 <div class="hover">
                     <button onclick="startGame('assets/images/rebellion-ship.png')" class="player" >
-                    <img src="assets/images/rebellion-ship.png" alt="">
+                    <img src="assets/images/rebellion-ship.png" alt="image of an icon rebellion-ship to choose as player">
                     <p>Rebellion-ship</p>
                     </button>
                 </div>
             </div>
     </div>
     </div>
+    <!--the back to start button-->
     <a class="back" href="index.html">Back</a>
     </div>
 </div>
-
+<!--Footer section with social media links-->
     <footer>
         <p class="footer-text">This game is Developed by Stina Carolin Axelsson</p>
         <div class="social-div">
@@ -60,8 +62,11 @@
         <a class="social-media" href="https://www.linkedin.com/in/carolin-axelsson-3788a9216/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
         </div>
     </footer>
+    <!--Script for font awsome icons in footer-->
     <script src="https://kit.fontawesome.com/1014fbb775.js" crossorigin="anonymous"></script>
+    <!--javascript for change player image-->
     <script src="assets/start-game.js"></script>
+    <!--javascript for sidebar menu / hamnburger menu-->
     <script src="assets/sidebar-menu.js"></script>
 </body>
 </html>

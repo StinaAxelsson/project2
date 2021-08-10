@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Space Race</title>
 </head>
-<body onload="setPlayerImage()">
-    <!--This page is the gameboard and the DOM page to the script-->
+<body onload="setPlayerImage()"> <!--function for user to choose a player of 3 images-->
     <header>
+        <!--sidebar/ hamburger menu-->
         <div id="menu-sidebar" class="sidebar">
             <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">X</a>
             <a href="how-to.html">Instructions</a>
@@ -24,12 +24,12 @@
         <div class="score-div"> <!--This div contains the score and a link back to menu-->
             <h3 id="score">Score: <span>0</span></h3> 
         </div>
-
+ <!--This page is the gameboard and the DOM page to the script-->
     <div id="gameboard">
-         <img id="player" src="assets/images/millennium-falcon.png" alt=""> <!--Millenuium falcon player-->
+         <img id="player" src="assets/images/millennium-falcon.png" alt=""> <!--Millenuium falcon player as default-->
        <div id="obstacle"></div> <!--The comets that will fall from the top of the board-->
        <div id="coins"></div> <!--The moneybags that will fall from the top to collect-->
-       <div id="game-over"> <!--Game over button with links to reset or back to menu-->
+       <div id="game-over"> <!--Game over button with play again button-->
            <p>Oh no! You got hit by a comet!</p>
 
            <a href="gameboard.html" class="play-again">Play again</a>
@@ -37,10 +37,7 @@
         </div>
     </div>
 </div> 
-    <!--Script for millenium falcoon player-->
-    <script src="assets/script.js"></script>
-    <script src="assets/sidebar-menu.js"></script>
-    <script src="https://kit.fontawesome.com/1014fbb775.js" crossorigin="anonymous"></script>
+    <!--Footer section with social media links-->
     <footer>
         <p class="footer-text">This game is Developed by Stina Carolin Axelsson</p>
         <div class="social-div">
@@ -52,5 +49,11 @@
     </footer>
     <!--The sounds in the game-->
     <audio id="coincollect" src="assets/sounds/coins.mp3" preload="auto" ></audio>
+    <!--javascript for the game-->
+    <script src="assets/script.js"></script>
+    <!--javascript for sidebar/ hamburger menu-->
+    <script src="assets/sidebar-menu.js"></script>
+    <!--script for font awsome icons used in the footer-->
+    <script src="https://kit.fontawesome.com/1014fbb775.js" crossorigin="anonymous"></script>
 </body>
 </html>
