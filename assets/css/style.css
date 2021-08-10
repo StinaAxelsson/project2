@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tourney:wght@700&display=swap');
 
+/*Background*/
 body{
-   
     background-image: url(../images/main-bg.jpg);
     background-size: cover;
-
-    
 }
 
+/*Header div and side menu / hamburger menu*/
 h1{
     text-align: center;
     font-family: Tourney, sans-serif;
@@ -16,238 +15,8 @@ h1{
     padding: 20px;
     color: #dd99ff;
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
-
 }
 
-.menu-container{
-    background-color: rgba(255, 230, 242, 0.4);
-    width: 50%;
-    height: 60vh;
-    margin: 0 auto;
-    border-radius: 10px;
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-
-}
-.how-to-btn, .start-game-btn {
-    text-align: center;
-    padding: 2%;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 1px solid black;
-    background-color: #dd99ff;
-    border-radius: 20px;
-    width: 200px;
-    height: 30px;
-    box-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.1em blue;
-    
-    
-}
-.back{
-    text-align: center;
-    padding: 2%;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 1px solid black;
-    background-color: #dd99ff;
-    border-radius: 20px;
-    width: 100px;
-    height: 20px;
-    font-size: 18px;
-    font-family: Tourney, sans-serif;
-    text-decoration: none;
-    color: black;
-    box-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.1em blue;
-    
-}
-
-.how-to-btn a, .start-game-btn a{
-    font-size: 25px;
-    font-family: Tourney, sans-serif;
-    text-decoration: none;
-    color: black;
-    justify-content: center;
-
-
-}
-.how-to-btn:hover, .start-game-btn:hover, .back:hover{
-    cursor: pointer;
-    background-color: #b31aff;
-}
-
-.how-to-text{
-    font-size: 16px;
-    font-family: Roboto, sans-serif;
-    padding-left: 3%;
-    padding-right: 3%;
-    text-align: center;
-
-}
-
-
-
-
-
-#score{
-    font-family: Roboto, Touney;
-    color: #dd99ff;
-    text-align: center;
-    letter-spacing: 2px;
-    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
-
-
-}
-.back-to-menu {
-    font-family: Roboto, Touney;
-    margin-top: 20px;
-    margin-right: 5px;
-    font-size: 18px;
-    color: black;
-    text-decoration: none; 
-}
-.back-to-menu:hover{
-    cursor: pointer;
-    border-radius: 1px solid black;
-    color: white;
-}
-
-.play-again {
-    font-family: Roboto, Touney;
-    margin-top: 20px;
-    margin-right: 5px;
-    font-size: 25px;
-    color: black;
-    text-decoration: none; 
-}
-.play-again:hover{
-    cursor: pointer;
-    border-radius: 1px solid black;
-    color: white;
-}
-
-#start-game{
-    text-align: center;
-    height: 100%;
-}
-
-h2{
-    font-size: 30px;
-    font-family: Tourney, sans-serif;
-    text-align: center;
-}
-.ship-container{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    margin: 1rem;
-    justify-content: space-around;
-}
-#start-game p{
-    font-family: Roboto, sans-serif;
-    font-size: 18px;
-    padding: 1%;
-    margin: 1rem;
-    text-decoration: none;
-    color: black;
-}
-.hover{
-    text-align: center;
-    padding: 2%;
-    border-radius: 20px;
-    
-}
-.hover:hover{
-    background-color: rgba(255, 230, 242, 0.4);
-}
-.player{
-    text-decoration: none;
-    color: black;
-    background: border-box;
-    border: none;
-    cursor: pointer;
-}
-
-/*game over*/
-#game-over{
-    width: 15em;
-    height: 10em;
-    display: flex;
-    margin: 0 auto;
-    text-align: center;
-    padding: 1%;
-    background-color: #dd99ff;
-    border-radius: 10px;
-    z-index: 1;
-    box-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.1em blue;
-    
-}
-#game-over  p{
-    font-size: 25px;
-    font-family: Tourney;
-}
-
-
-/*gameboard*/
-#gameboard{
-    width: 25em;
-    height: 30em;
-    display: flex;
-    border: 1px solid black;
-    background-image: url(../images/spacebg.png);
-    background-repeat: no-repeat;
-    position: relative;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-#player{
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    pointer-events: none;
-    top: 26em;
-    left:50%;
-    
-}
-
-#obstacle{
-    width: 55px;
-    height: 55px;
-    position: absolute;
-    pointer-events: none;
-    top: 0px;
-    left:50%;
-}
-
-.comets{
-    width: 55px;
-    height: 55px;
-    position: absolute;
-    background: url(../images/comet.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-
-#obstacle{
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    pointer-events: none;
-    top: 0px;
-    left:50%;
-}
-.money{
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    background-image: url(../images/money.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 .sidebar{
     height: 100%;
     width: 0;
@@ -304,12 +73,198 @@ h2{
     padding: 16px;
 }
 
-footer{
-
-width: 100%;
-height: 35px;
+/* start-page and buttons */
+.menu-container{
+    background-color: rgba(255, 230, 242, 0.4);
+    width: 50%;
+    height: 60vh;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.how-to-btn, .start-game-btn {
+    text-align: center;
+    padding: 2%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    background-color: #dd99ff;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    box-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.1em blue;   
+}
+.how-to-btn a, .start-game-btn a{
+    font-size: 25px;
+    font-family: Tourney, sans-serif;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+}
+.how-to-btn:hover, .start-game-btn:hover, .back:hover{
+    cursor: pointer;
+    background-color: #b31aff;
 }
 
+/*Styling for "How to play" page and the "back" button*/
+.how-to-text{
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+}
+.back{
+    text-align: center;
+    padding: 2%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    background-color: #dd99ff;
+    border-radius: 20px;
+    width: 100px;
+    height: 20px;
+    font-size: 18px;
+    font-family: Tourney, sans-serif;
+    text-decoration: none;
+    color: black;
+    box-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.1em blue;  
+}
+
+/*Styling for "choose player page */
+h2{
+    font-size: 30px;
+    font-family: Tourney, sans-serif;
+    text-align: center;
+}
+.ship-container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 1rem;
+    justify-content: space-around;
+}
+.player{
+    text-decoration: none;
+    color: black;
+    background: border-box;
+    border: none;
+    cursor: pointer;
+}
+#start-game p{
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    padding: 1%;
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+}
+.hover{
+    text-align: center;
+    padding: 2%;
+    border-radius: 20px;   
+}
+.hover:hover{
+    background-color: rgba(255, 230, 242, 0.4);
+}
+#start-game{
+    text-align: center;
+    height: 100%;
+}
+/*Style for the gameboard (gameboard + background, score,
+player, obstacle(comets) and money*/
+#gameboard{
+    width: 25em;
+    height: 30em;
+    display: flex;
+    border: 1px solid black;
+    background-image: url(../images/spacebg.png);
+    background-repeat: no-repeat;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#score{
+    font-family: Roboto, Touney;
+    color: #dd99ff;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+#player{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    pointer-events: none;
+    top: 26em;
+    left:50%;  
+}
+#obstacle{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    pointer-events: none;
+    top: 0px;
+    left:50%;
+}
+.comets{
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    background: url(../images/comet.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.money{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-image: url(../images/money.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*game over box with play again style*/
+#game-over{
+    width: 15em;
+    height: 10em;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1%;
+    background-color: #dd99ff;
+    border-radius: 10px;
+    z-index: 1;
+    box-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.1em blue;    
+}
+#game-over  p{
+    font-size: 25px;
+    font-family: Tourney;
+}
+.play-again {
+    font-family: Roboto, Touney;
+    margin-top: 20px;
+    margin-right: 5px;
+    font-size: 25px;
+    color: black;
+    text-decoration: none; 
+}
+.play-again:hover{
+    cursor: pointer;
+    border-radius: 1px solid black;
+    color: white;
+}
+
+/*Style for the footer section*/
+footer{
+    width: 100%;
+    height: 35px;
+    }
+    
 .footer-text {
     font-size: 16px;
     font-family: Robota, sans-serif;
@@ -317,11 +272,9 @@ height: 35px;
     color: #dd99ff;
 }
 .social-div {
-
     text-align: center;
     font-size: 25px;
-    margin: 0 auto;
-    
+    margin: 0 auto;    
 }
 .social-media {
     text-align: center;
@@ -331,23 +284,21 @@ height: 35px;
 .social-media:hover{
     color: blueviolet;
 }
-
+/*Styling for small screens with max width 700px*/
 @media screen and (max-width: 700px){
 
     .menu-container{
         width: 100%;
     }
-
     .open-btn {
         width: 35px;
         height: 35px;
-        padding: 10px 15px; 
+        padding: 0px; 
         margin-left: 0px; 
         margin-top: 0px; 
         border-radius: 10px;
-        font-size: 15px;
+        font-size: 20px;
         position: relative;
-
     }
     #start-game p{
         font-family: Roboto, sans-serif;
@@ -357,24 +308,23 @@ height: 35px;
     #gameboard{
         width: 22em;
         height: 30em;
-}
-.headline{
-    font-size: 35px;
-}
-
-
-.how-to-text{
-    font-size: 15px;
-    padding: 5px;
-}
-#score{
-    margin: 10px;
-}
-#main{
-   padding: 0px;
-}
+    }
+    .headline{
+        font-size: 50px;
+    }
+    .how-to-text{
+        font-size: 15px;
+        padding: 5px;
+    }
+    #score{
+        margin: 10px;
+    }
+    #main{
+    padding: 0px;
+    }
 
 }
+/*Style for smaller screens up to 340px*/
 @media screen and (max-width: 340px){
     .headline {
         font-size: 30px;
@@ -403,6 +353,5 @@ height: 35px;
     .headline{
         padding: 0px;
         font-size: 35px;
-     
      }
 }
