@@ -2,7 +2,7 @@
 
 body{
    
-    background-image: url(../assets/images/main-bg.jpg);
+    background-image: url(../images/main-bg.jpg);
     background-size: cover;
 
     
@@ -196,7 +196,7 @@ h2{
     height: 30em;
     display: flex;
     border: 1px solid black;
-    background-image: url(../assets/images/spacebg.png);
+    background-image: url(../images/spacebg.png);
     background-repeat: no-repeat;
     position: relative;
     margin: 0 auto;
@@ -226,7 +226,7 @@ h2{
     width: 55px;
     height: 55px;
     position: absolute;
-    background: url(../assets/images/comet.png);
+    background: url(../images/comet.png);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -244,7 +244,7 @@ h2{
     width: 30px;
     height: 30px;
     position: absolute;
-    background-image: url(../assets/images/money.png);
+    background-image: url(../images/money.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
