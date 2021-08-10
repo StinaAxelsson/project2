@@ -8,9 +8,17 @@
     <title>Space Race</title>
 </head>
 <body>
-    <div>
-        <h1>Space Race</h1>
-    </div>
+    <header>
+        <div id="menu-sidebar" class="sidebar">
+            <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">X</a>
+            <a href="how-to.html">Instructions</a>
+            <a href="start-game.html">Choose player</a>
+            <a href="index.html">Back to start</a>
+        </div>
+        <div id="main">
+            <button class="open-btn" onclick="openNav()">☰</button>
+        <h1 class="headline">Space Race</h1></div>
+    </header>
     <!--This page is to start the game but first choose a player-->
     <div class="menu-container">
         <h2>Choose player</h2>
@@ -41,11 +49,13 @@
     </div>
     <div class="back"><a href="index.html">Back</a></div>
     </div>
+</div>
+
     <footer>
         <p class="footer-text">This game is Developed by StinaAxelsson <i class="fab fa-github"></i> </p>
     </footer>
-
     <script src="https://kit.fontawesome.com/1014fbb775.js" crossorigin="anonymous"></script>
     <script src="assets/start-game.js"></script>
+    <script src="assets/sidebar-menu.js"></script>
 </body>
 </html>

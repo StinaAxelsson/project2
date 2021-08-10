@@ -9,15 +9,21 @@
 </head>
 <body onload="setPlayerImage()">
     <!--This page is the gameboard and the DOM page to the script-->
-    <div>
+    <header>
+        <div id="menu-sidebar" class="sidebar">
+            <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">X</a>
+            <a href="how-to.html">Instructions</a>
+            <a href="start-game.html">Choose player</a>
+            <a href="index.html">Back to start</a>
+        </div>
+        <div id="main">
+            <button class="open-btn" onclick="openNav()">☰</button>
         <h1 class="headline">Space Race</h1>
-    </div>
-    
+    </header>
     <div class="wrapper">
         <div class="score-div"> <!--This div contains the score and a link back to menu-->
             <h3 id="score">Score: <span>0</span></h3> 
         </div>
-       <div class="back-to-menu"><a class="back-to-menu"href="index.html">Back to menu</a></div> 
     </div>
     <div id="gameboard">
          <img id="player" src="assets/images/millennium-falcon.png" alt=""> <!--Millenuium falcon player-->
@@ -30,8 +36,10 @@
 
         </div>
     </div>
+</div> 
     <!--Script for millenium falcoon player-->
     <script src="assets/script.js"></script>
+    <script src="assets/sidebar-menu.js"></script>
     <script src="https://kit.fontawesome.com/1014fbb775.js" crossorigin="anonymous"></script>
     <footer>
         <p class="footer-text">This game is Developed by StinaAxelsson <i class="fab fa-github"></i></p>

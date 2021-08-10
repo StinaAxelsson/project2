@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tourney:wght@700&display=swap');
 *{
 
-    overflow: hidden;
+    
     
 }
 body{
@@ -200,6 +200,7 @@ h2{
     background-repeat: no-repeat;
     position: relative;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 #player{
@@ -247,6 +248,53 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.sidebar{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #dd99ff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: Tourney, sans-serif;
+    display: block;
+    transition: 0.3s;
+}
+.sidebar a:hover{
+    color: white;
+}
+
+.sidebar, .close-btn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 30px;
+}
+.open-btn{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #dd99ff;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+}
+
+.open-btn:hover{
+    color: #dd99ff;
+}
+#main{
+    transition: margin-left .5s;
+    padding: 16px;
+}
 
 footer{
 
@@ -276,7 +324,7 @@ height: 35px;
         height: 30em;
 }
 .headline{
-    font-size: 25px;
+    font-size: 35px;
 }
 .score-div{
     padding: 0px;
