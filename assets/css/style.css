@@ -154,19 +154,23 @@ h2{
     background: border-box;
     border: none;
     cursor: pointer;
+    flex-direction: column;
 }
-#start-game p{
+#start-game button{
     font-family: Roboto, sans-serif;
-    font-size: 18px;
+    font-size: 10px;
     padding: 1%;
     margin: 1rem;
     text-decoration: none;
     color: black;
+    flex-direction: column;
 }
 .hover{
     text-align: center;
     padding: 2%;
-    border-radius: 20px;   
+    border-radius: 20px;  
+
+    
 }
 .hover:hover{
     background-color: rgba(255, 230, 242, 0.4);
@@ -255,7 +259,7 @@ player, obstacle(comets) and money*/
 }
 .play-again:hover{
     cursor: pointer;
-    border-radius: 1px solid black;
+    border-radius: 1px, solid, black;
     color: white;
 }
 
