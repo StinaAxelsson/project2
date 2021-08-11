@@ -297,6 +297,14 @@ footer{
 .social-media:hover{
     color: blueviolet;
 }
+@media screen and (max-width: 960px){
+ .menu-container{
+     width: 50%;
+}
+.open-btn{
+    margin-left: 0px;
+}
+}
 /*Styling for small screens with max width 700px*/
 @media screen and (max-width: 700px){
 
@@ -358,6 +366,9 @@ footer{
     }
     #start-game p{
         margin: 0px;
+    }
+    #start-game button{
+        margin: 5px;
     }
     #gameboard {
         width: 19em;
