@@ -1,12 +1,11 @@
 
-//CONST variables
+//const variables
 const player = document.getElementById('player');
 const board = document.getElementById('gameboard');
 const gameoverBtn = document.getElementById('game-over');
-
-
-//const backgroundMusic = new Audio('assets/sounds/background.mp3');
 const coinSound = new Audio('assets/sounds/coins.mp3');
+
+//let variables
 let score = 0;
 
 gameoverBtn.style.display = 'none';
@@ -20,6 +19,9 @@ document.addEventListener('touchmove', handleTouchEvent, true);
 document.addEventListener('touchend', handleTouchEvent, true);
 document.addEventListener('touchcancel', handleTouchEvent, true);
 
+/**
+ * This function handle the touch event so you can use touch on devices without keyboard.
+ */
 function handleTouchEvent(e) {
     if (e.touches.length === 0 ) return;
     let touch = e.touches[0];
@@ -48,7 +50,7 @@ let = createObstacle = setInterval(function() {
 
   board.appendChild(comet);
 
-}, 1000);
+}, 1000);  // <-- set the interval for the comets, so they fall 1 sec faster than the money
 
 /**
  * This function is the same as the "createObstacle" but insted it create 
@@ -61,7 +63,7 @@ let createMoney = setInterval(function() {
 
   board.appendChild(money);
   
-}, 2000);
+}, 2000); // <-- set the interval for the money, so they fall 1 sec slower than the comets
 
 /**
  * This function make the obstacles/comets fall from the top of the board
@@ -113,7 +115,7 @@ let moveMoney = setInterval(function() {
       }
       else {
           score++; //add score 
-          scoreboardRefresh(); 
+          addScore(); 
           coinSound.play(); //play sound
           money.classList.remove('money'); //remove the moneybag from screen
           money.classList.add('collected-money');
@@ -126,7 +128,7 @@ let moveMoney = setInterval(function() {
   
 }, 200);
 
-let scoreboardRefresh = () => {
+let addScore = () => {
   document.getElementById("score").innerHTML = "Score: " + score; //Adds score when hit a moneybag.
 };
 
@@ -148,7 +150,9 @@ setTimeout(() => {
   
 });
 }
-
+/**
+ * Function that set the image of spaceship as the player, despite on what spaceship the user choose in the "start game" page.
+ */
 function setPlayerImage(){
   const imageUrl = localStorage.getItem('playerImageUrl');
   if (imageUrl) {
