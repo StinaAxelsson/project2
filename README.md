@@ -1,4 +1,5 @@
-# SPACE RACE
+# [SPACE RACE](https://stinaaxelsson.github.io/spacerace-project2/)
+<b>Author:</b> Stina Carolin Axelsson
 # Project Description
 Be ready for a little adventure in the outer space, in this small web-browser game!
 First you have to chose a spaceship to travel in, and then you are ready to play. 
@@ -13,12 +14,12 @@ It is created with HTML for the structure, CSS for all the styling and then Java
 # Content
   * [Project Description](https://www.example.com)
   * [UX](https://www.example.com)
+    * [User Goals](https://www.example.com)
     * [User stories](https://www.example.com)
     * [Site owner goals](https://www.example.com)
     * [Design choises](https://www.example.com)
     * [Colors](https://www.example.com)
     * [Fonts](https://www.example.com)
-    * [Structure](https://www.example.com)
   * [Wireframes](https://www.example.com)
   * [Features](https://www.example.com)
     * [Existing Features](https://www.example.com)
@@ -28,6 +29,7 @@ It is created with HTML for the structure, CSS for all the styling and then Java
     * [Other programmes](https://www.example.com)
   * [Testing](https://www.example.com)
     * [Validator Testing](https://www.example.com)
+    * [Lighthouse Testing](https://www.example.com)
     * [Bugs](https://www.example.com)
   * [Deployment](https://www.example.com)
   * [Credits](https://www.example.com)
@@ -70,6 +72,7 @@ For the text i chose to go with two Fonts. For the headlines, rubrics and button
 # Wireframes
 
 # Features
+Here I explain my chose of design and structure on the website and all of the features. With screenshots to see what I describe. 
 ## Existing Features
  * <b>Header and Navigation</b>
    * The title of the game is placed centred on the website and is in the same size on every page.
@@ -108,31 +111,72 @@ For the text i chose to go with two Fonts. For the headlines, rubrics and button
 2. CSS3
 3. JavaScript
 ## Other programmes
+* [Balsamiq](https://balsamiq.com/) - I used this to make my wireframes.
+* [GitHub](https://github.com/) - Making my project respository and to deploy it.
+* [Font Awsome](https://fontawesome.com/) - I got my icons for the social media in the footer.
+* [Google Fonts](https://fonts.google.com/) - Here I found my two fonts for the typograhpy.
+* [Am I Responsive](http://ami.responsivedesign.is/#) - To get my screenshot of how my site looks like in different screen sizes.
+* [Icons8](https://icons8.com) - Here I got my images of the spaceships, comet and the moneybag.
+* [Google Translate](https://translate.google.com/?hl=sv-) - Helped me with some translations in the README file from Swedish to English.
+* [Convertio](https://convertio.co/download/a4cd17b1a0c5c9e653a05ae116865e310c1b43/) - Converted my mp3 file from WAV to MP3.
+* Chrome Devtool - This programme I used all the time to find errors, bugs, and to help me make my site responsive.
+* [JigsawW3C](https://jigsaw.w3.org/css-validator/validator.html.en) - Used to validate my HTML and CSS code.
+* [JShint](https://jshint.com/) - Used to validate my JavaScript code.
 
 # Testing
-## Validator Testing
+I used Chrome Devtools to test that my code was working. With JavaScript I used the console.log which helped me find errors and see if I typed my code correctly, that was not yet visible on the website itself.
+Also Devtools was very helpful when I needed to make my site responsive.
+
+When I had deployed my site, I could try the live link on my phone to see how it worked and looked like. 
+My boyfriend, sisters and my mum have helped me find bugs and what I could do to further improve the user experience. 
+It has been tested live on a <b>IphoneX, Iphone 12, Samsung Galaxy S21 Ultra and a Samusung A5. Also on my laptop with the screensize 15" and a screensize 24".</b>
+To see how it looks in smaller screens and other sizes, I used Devtools responsive so see how it worked. 
 ## Bugs
+My biggest problem that caused a lot of errors and bugs and what I did to fix it. 
+* <b>Control movement</b>: I had a lot of trouble trying to make a functional code for the movement of the spaceship so that it worked well for touch screens and PCs. First I tryed to make buttons for touch screens and I could not make a good code without using the canvas elements in the HTML instead. And because I made a game without the canvas I finally found a helpful page on internet that only used touchEvents. That made it easy for users to use touch directly on the gameboard instead to control the spacdeship, which I think is both easier and more user-friendly than right and left touch buttons.
+* <b>Collision Detection function:</b> This part of my code took me 2 days to find out how to implement. I had hugh problem to get the logic of how to make the comets collide with the player. I tried everything that I could find on the internet and youtube. But nothing would work. I got help from the tutors from code institute and together with them I finally got the logic of the code to make it work and could implement that collision in my script and it worked perfectly. That was a special moment for my personal development in writing JavaScript. I also used that to detect collision for the moneybags but instead of make the game stop, I increase the score and removed the moneybags when they where collected.
+* <b>Responsiv gameboard:</b> Even if the game worked fine in Devtools at the responsive IphoneX, it did not work in real with the live link when my mother and sister tried it on their IphoneX phone. They could not see the whole screen and could not scroll down when they where on the page with the game in action. So I am thankful for their help because otherwise I probably would not have discovered this bug. I was able to fix this by deleting "height: 100vh;" under body tag in the CSS code. In this way it was possible to scroll and see the whole page as you should.
+
+## Validator Testing
+### HTML Result
+### CSS Result
+### JavaScript Result
+## Lighthouse Testing
 
 # Deployment
+This project was developed using the Gitpod IDE. In order to save my work I always add commit messenges that describe what I have done and then Git push in the console to save and push it from Gitpod to Github.
+
+For deploy this site I had to follow this steps:
+
+1. Log in to my account at Github.
+2. Open the repository that I wanted to deploy.
+3. Select settings in the menu at the top and scroll down to Pages.
+4. Open the drop-down menu in the source section.
+5. Select main instead of none.
+6. Save and wait a few seconds until it deployed.
+7. Copy the link and open it in you browser to see the live link.
+
+Here is my deployed live link: https://stinaaxelsson.github.io/spacerace-project2/
 
 # Credits
-https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow -shadow
-https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp - sidebar
-https://jsbin.com/depo/1/edit?js,output - touch event
-https://github.com/learnmux/Space-Shooter-Game-Using-Javascript/blob/main/app.js - key event and inerval for comets and money
+ 
+ 
+
+
 https://freesound.org/people/The-Sacha-Rush/sounds/336935/ -coin sound
-## Content
+## Content and code
+* [Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow) - The CSS box/text shadow
+* [W3School](https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp) - The sidebar/hamburger menu code
+* [Jsbin](https://jsbin.com/depo/1/edit?js,output) - For the touchevent I used help from this code.
+* [Github- learmux](https://github.com/learnmux/Space-Shooter-Game-Using-Javascript/blob/main/app.js) - An tutorial at youtube, I used help with the key event and the setinterval for the comets and moneybags.
+* Tutors help from Code Institute. I got alot of help when needed to sort out some question I got and to help me find out the logic of the collision detection.
+
 ## Media
+* [Freesound](https://freesound.org/people/The-Sacha-Rush/sounds/336935/) - The coin collected sound.
+* [Vecteezy](https://sv.vecteezy.com/gratis-vektor/m%C3%B6nster) - The background image on the website
+* [Github - Jodecir](https://github.com/Jodecir/space-shooter-dio/blob/master/img/space.png) - The background image to the gameboard.
+* [Icons8](https://icons8.com) - The images of the spaceships, comets and moneybag.
+
+
 
 # Acknowledgements
-
-
-
-
-
-
-
-
-<a target="_blank" href="https://icons8.com/icon/23095/money-bag">Money Bag</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-
-https://convertio.co/download/a4cd17b1a0c5c9e653a05ae116865e310c1b43/

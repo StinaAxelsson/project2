@@ -14,7 +14,7 @@ h1{
     margin: 0 auto;
     padding: 20px;
     color: #dd99ff;
-    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    text-shadow: 1px 1px 2px black, 0 0 1em #0000ff, 0 0 0.2em blue;
 }
 
 .sidebar{
@@ -62,7 +62,7 @@ h1{
     margin-top: 25px;
     border-radius: 20px;
     font-size: 30px;
-    box-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.1em blue;
+    box-shadow: 1px 1px 2px black, 0 0 1em #0000ff, 0 0 0.1em blue;
 }
 
 .open-btn:hover{
@@ -95,7 +95,7 @@ h1{
     border-radius: 20px;
     width: 200px;
     height: 30px;
-    box-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.1em blue;   
+    box-shadow: 1px 1px 2px black, 0 0 1em #0000ff, 0 0 0.1em blue;   
 }
 .how-to-btn a, .start-game-btn a{
     font-size: 25px;
@@ -132,7 +132,7 @@ h1{
     font-family: Tourney, sans-serif;
     text-decoration: none;
     color: black;
-    box-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.1em blue;  
+    box-shadow: 1px 1px 2px black, 0 0 1em #0000ff, 0 0 0.1em blue;  
 }
 
 /*Styling for "choose player page */
@@ -185,7 +185,7 @@ h3{
 .hover:hover{
     background-color: rgba(255, 230, 242, 0.4);
     border-radius: 20px;
-    box-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    box-shadow: 1px 1px 2px black, 0 0 1em #0000ff, 0 0 0.2em blue;
 }
 #start-game{
     text-align: center;
@@ -203,14 +203,14 @@ player, obstacle(comets) and money*/
     position: relative;
     margin: 0 auto;
     overflow: hidden;
-    box-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.1em blue;
+    box-shadow: 1px 1px 2px black, 0 0 1em #0000ff, 0 0 0.1em blue;
 }
 #score{
     font-family: Roboto, Touney;
     color: #dd99ff;
     text-align: center;
     letter-spacing: 2px;
-    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    text-shadow: 1px 1px 2px black, 0 0 1em #0000ff, 0 0 0.2em blue;
 }
 
 #player{
@@ -256,7 +256,7 @@ player, obstacle(comets) and money*/
     background-color: #dd99ff;
     border-radius: 10px;
     z-index: 1;
-    box-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.1em blue;    
+    box-shadow: 1px 1px 2px black, 0 0 1em #0000ff, 0 0 0.1em blue;    
 }
 #game-over  p{
     font-size: 25px;
@@ -299,12 +299,12 @@ footer{
     color: #dd99ff;   
 }
 .social-media i{
-    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    text-shadow: 1px 1px 2px black, 0 0 1em #0000ff, 0 0 0.2em blue;
     font-size: 35px;
 }
 
 .social-media:hover{
-    color: blueviolet;
+    color: #8a2be2;
 }
 @media screen and (max-width: 960px){
  .menu-container{
