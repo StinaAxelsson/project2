@@ -12,41 +12,39 @@ It is created with HTML for the structure, CSS for all the styling and then Java
 
 
 # Content
-  * [Project Description](https://www.example.com)
-  * [UX](https://www.example.com)
-    * [User Goals](https://www.example.com)
-    * [User stories](https://www.example.com)
-    * [Site owner goals](https://www.example.com)
-    * [Design choises](https://www.example.com)
-    * [Colors](https://www.example.com)
-    * [Fonts](https://www.example.com)
-  * [Wireframes](https://www.example.com)
-  * [Features](https://www.example.com)
-    * [Existing Features](https://www.example.com)
-    * [Features Left to Implement](https://www.example.com)
-  * [Technologies Used](https://www.example.com)
-    * [Languages](https://www.example.com)
-    * [Other programmes](https://www.example.com)
-  * [Testing](https://www.example.com)
-    * [Validator Testing](https://www.example.com)
-    * [Lighthouse Testing](https://www.example.com)
-    * [Bugs](https://www.example.com)
-  * [Deployment](https://www.example.com)
-  * [Credits](https://www.example.com)
-    * [Content](https://www.example.com)
-    * [Media](https://www.example.com)
-  * [Acknowledgements](https://www.example.com)
-
-
+  * [Project Description](https://github.com/StinaAxelsson/spacerace-project2#project-description)
+  * [UX](https://github.com/StinaAxelsson/spacerace-project2#ux)
+    * [User Goals](https://github.com/StinaAxelsson/spacerace-project2#user-goals)
+    * [User stories](https://github.com/StinaAxelsson/spacerace-project2#user-stories)
+    * [Site owner goals](https://github.com/StinaAxelsson/spacerace-project2#site-owner-goals)
+    * [Design choises](https://github.com/StinaAxelsson/spacerace-project2#design-choises)
+    * [Colors](https://github.com/StinaAxelsson/spacerace-project2#colours)
+    * [Typography](https://github.com/StinaAxelsson/spacerace-project2#typography)
+  * [Wireframes](https://github.com/StinaAxelsson/spacerace-project2#wireframes)
+  * [Features](https://github.com/StinaAxelsson/spacerace-project2#features)
+    * [Existing Features](https://github.com/StinaAxelsson/spacerace-project2#existing-features)
+    * [Features Left to Implement](https://github.com/StinaAxelsson/spacerace-project2#features-left-to-implement)
+  * [Technologies Used](https://github.com/StinaAxelsson/spacerace-project2#technologies-used)
+    * [Languages](https://github.com/StinaAxelsson/spacerace-project2#languages)
+    * [Other programmes](https://github.com/StinaAxelsson/spacerace-project2#other-programmes)
+  * [Testing](https://github.com/StinaAxelsson/spacerace-project2#testing)
+    * [Bugs](https://github.com/StinaAxelsson/spacerace-project2#bugs)
+    * [Validator Testing](https://github.com/StinaAxelsson/spacerace-project2#validator-testing)
+    * [Lighthouse Testing](https://github.com/StinaAxelsson/spacerace-project2#lighthouse-testing)
+  * [Deployment](https://github.com/StinaAxelsson/spacerace-project2#deployment)
+  * [Credits](https://github.com/StinaAxelsson/spacerace-project2#credits)
+    * [Content and code](https://github.com/StinaAxelsson/spacerace-project2#content-and-code)
+    * [Media](https://github.com/StinaAxelsson/spacerace-project2#media)
+  * [Acknowledgements](https://github.com/StinaAxelsson/spacerace-project2#acknowledgements)
 
 # UX
+This is what I have 
 ## User goals
 As a first time and a returning visitor am I looking for...
   * a great way to pass some time.
   * to visit this site and feel satisfied with the way it is structured.
   * a site that I can use on my phone, laptop or PC and it works and look good.
   * somewhere to interact with the developer if something is wrong or just want to know or see more.
-## Project goals
 
 ## User Stories
 <b>As a user I want a site that...</b>
@@ -67,6 +65,19 @@ This site is about a space adventure, and therefore I wanted it to be colorful a
 For the colours I going with the colors of the galaxy, that is purple, blue, pink and black. To clarify that this is a game about the space. And the colours matching very good and is great to use togehter.
 ## Typography
 For the text i chose to go with two Fonts. For the headlines, rubrics and buttons I used 'Tourney', it is a fun and great font and make it look more like a game. And for the score and instructions I used 'Roboto', because it is a great font for reading and it goes well with Tourney.
+## Scope
+## Structure
+<b>This is a simple browser game with no scroll on the pages. With the basic structure of:</b>
+
+- Header
+  * On the top with the title. 
+
+- Body 
+  * Contains buttons to navigate, intructions, the game itself and a hamburger icon for the sidebar menu.
+
+- Footer
+  * Information of the developer and icons with links to the owners social media.
+
 
 
 # Wireframes
@@ -169,7 +180,6 @@ https://freesound.org/people/The-Sacha-Rush/sounds/336935/ -coin sound
 * [W3School](https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp) - The sidebar/hamburger menu code
 * [Jsbin](https://jsbin.com/depo/1/edit?js,output) - For the touchevent I used help from this code.
 * [Github- learmux](https://github.com/learnmux/Space-Shooter-Game-Using-Javascript/blob/main/app.js) - An tutorial at youtube, I used help with the key event and the setinterval for the comets and moneybags.
-* Tutors help from Code Institute. I got alot of help when needed to sort out some question I got and to help me find out the logic of the collision detection.
 
 ## Media
 * [Freesound](https://freesound.org/people/The-Sacha-Rush/sounds/336935/) - The coin collected sound.
@@ -180,3 +190,7 @@ https://freesound.org/people/The-Sacha-Rush/sounds/336935/ -coin sound
 
 
 # Acknowledgements
+Here I like to thank some people that have been to alot of helo for med during this project.
+First I like to thank the tutor support on the Code Institute that have helped me with my biggest question when I was very close to throw in the towel. Very thankful for all of the people that I got in touth with.
+I like to thank my supportive parnet Christoffer who have put up with me and my mental breakdowns during imposters synrome with alot of tears and late nights, and always got me on the right track to not give up, handle in food and drinks to my desk when working on this project, I am more than thankful. 
+And I like to thank my mentor Oluwafemi Medale for helping me out with the code where you choose the spaceship to make it appear on the game. That was a huge problem I got and he helped me sort it out on our last mentor session. Thanks for all the inputs and help during this time.
