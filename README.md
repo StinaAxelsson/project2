@@ -61,7 +61,7 @@ As a first time and a returning visitor am I looking for...
 ## Design choises
 This site is about a space adventure, and therefore I wanted it to be colorful and an invitation to something fun but also obvious what it is about. I chose the background image and the images on the spaceships in a similar cartooney theme to match.
 ## Colours
-For the colors I going with the colors of the galaxy, that is purple, blue, pink and black. To clarify that this is a game about the space. And the colors matching very good and is great to use togehter.
+For the colours I going with the colors of the galaxy, that is purple, blue, pink and black. To clarify that this is a game about the space. And the colours matching very good and is great to use togehter.
 ## Typography
 For the text i chose to go with two Fonts. For the headlines, rubrics and buttons I used 'Tourney', it is a fun and great font and make it look more like a game. And for the score and instructions I used 'Roboto', because it is a great font for reading and it goes well with Tourney.
 
@@ -70,7 +70,20 @@ For the text i chose to go with two Fonts. For the headlines, rubrics and button
 
 # Features
 ## Existing Features
-### Header
+ * <b>Header and Navigation</b>
+   * The title of the game is placed centred on the website and is in the same size on every page.
+   * The navigation is a small box in the left corner with the hamburger icon and appear when you are on antoher page then the start/index page.
+   * On the start page, the user navigate forward with the two buttons with two choises, to read the instructions or just start the game.
+
+  * <b>Menu container</b>
+    * This feature is the container that holds the buttons on the start page and the information from the "how to play" page and the "Start Game" page. 
+  * <b>Buttons</b>
+    * All of the buttons have the same colour theme and fonts. The startpage have two big buttons that will get the user to the game istructions or to choose a player.
+    * On both "how to play" and "Start Game" pages there is a "back" button.
+  * <b>Choose Spaceship</b>
+    * On the "Star game" page, you will first choose witch spaceship you want to play as in the game later on. There is three images of different spaceships. I have chose spaceships that people tend to know about. As the "Millennuim-Falcon" from Star Wars and also the "USS-Discovery", and the third one called Rebellian Ship. So the user can choose it favorit ship.
+    * The images is buttons, so when a user is clicking on one of them, it takes them to the game and it will start automatically.
+
 
 ## Features Left to Implement
 
