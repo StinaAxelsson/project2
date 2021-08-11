@@ -176,7 +176,7 @@ h3{
     font-family: Roboto, sans-serif;
     font-size: 10px;
     padding: 1%;
-    margin: 1rem;
+    
     text-decoration: none;
     color: black;
     flex-direction: column;
@@ -185,6 +185,7 @@ h3{
 .hover:hover{
     background-color: rgba(255, 230, 242, 0.4);
     border-radius: 20px;
+    box-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
 }
 #start-game{
     text-align: center;
@@ -285,6 +286,7 @@ footer{
     text-align: center;
     color: #dd99ff;
 }
+
 .social-div {
     text-align: center;
     font-size: 25px;
@@ -292,9 +294,14 @@ footer{
 }
 .social-media {
     text-align: center;
-    padding: 15px;
-    color: #dd99ff;
+    padding: 20px;
+    color: #dd99ff;   
 }
+.social-media i{
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    font-size: 35px;
+}
+
 .social-media:hover{
     color: blueviolet;
 }
