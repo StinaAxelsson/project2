@@ -98,6 +98,9 @@ For the text i chose to go with two Fonts. For the headlines, rubrics and button
 
 
 ## Features Left to Implement
+* In future I will implement different difficulty. Starting easy, and when you have got 10 score, the comets fall down a little bit faster, and when you hit 25 in score it falls down even faster, and so on so it gived the user a little more challange.
+* I wanted to implement a high score table, so you can save your score every time.
+* Similar to the high score table, I wanted to implement a high score list of the total top three players araound the world and not only your own score.
 
 # Technologies Used
 ## Languages
