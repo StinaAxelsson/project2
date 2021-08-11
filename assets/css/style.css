@@ -111,7 +111,7 @@ h1{
 
 /*Styling for "How to play" page and the "back" button*/
 .how-to-text{
-    font-size: 16px;
+    font-size: 18px;
     font-family: Roboto, sans-serif;
     padding-left: 3%;
     padding-right: 3%;
@@ -184,6 +184,7 @@ h3{
 
 .hover:hover{
     background-color: rgba(255, 230, 242, 0.4);
+    border-radius: 20px;
 }
 #start-game{
     text-align: center;
