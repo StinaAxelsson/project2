@@ -43,6 +43,7 @@ As a first time and a returning visitor am I looking for...
   * a great way to pass some time.
   * to visit this site and feel satisfied with the way it is structured.
   * a site that I can use on my phone, laptop or PC and it works and look good.
+  * somewhere to interact with the developer if something is wrong or just want to know or see more.
 ## Project goals
 
 ## User Stories
@@ -74,15 +75,26 @@ For the text i chose to go with two Fonts. For the headlines, rubrics and button
    * The title of the game is placed centred on the website and is in the same size on every page.
    * The navigation is a small box in the left corner with the hamburger icon and appear when you are on antoher page then the start/index page.
    * On the start page, the user navigate forward with the two buttons with two choises, to read the instructions or just start the game.
+   * sidebar opens when the user press the hamburger icon, and contains a menu with all of the pages.
 
   * <b>Menu container</b>
     * This feature is the container that holds the buttons on the start page and the information from the "how to play" page and the "Start Game" page. 
   * <b>Buttons</b>
     * All of the buttons have the same colour theme and fonts. The startpage have two big buttons that will get the user to the game istructions or to choose a player.
     * On both "how to play" and "Start Game" pages there is a "back" button.
+  * <b>Instructions</b>
+    * This page is a short text with information of how to get startet with the game and how it works.
   * <b>Choose Spaceship</b>
     * On the "Star game" page, you will first choose witch spaceship you want to play as in the game later on. There is three images of different spaceships. I have chose spaceships that people tend to know about. As the "Millennuim-Falcon" from Star Wars and also the "USS-Discovery", and the third one called Rebellian Ship. So the user can choose it favorit ship.
     * The images is buttons, so when a user is clicking on one of them, it takes them to the game and it will start automatically.
+  * <b>Game board box</b>
+    * This page contain the game and here is where the user interact with the site. The game starts automatically and the user control the spaceship with the keyboard arrow left or right on a desktop/PC, and move it on the screen on a touch device. 
+    * Score is increase when the spaceship hit a moneybag.
+    * Game over if the spaceship hit a comet that is falling down from top of the gameboard box.
+    * A "play again" button is shown in the gameover box when the game is over, to restart.
+  * <b>Footer and Social media links</b>
+    * In the footer, there is a small paragraph with a sign of who has developed the game and site.
+    * Underneath the paragraph, there is icons with links that opens up in a new tablet and take the user to the developeres social media.
 
 
 ## Features Left to Implement
