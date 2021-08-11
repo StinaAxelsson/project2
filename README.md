@@ -6,6 +6,7 @@ If you play this game on a desktop, you move the player with the arrow keys RIGH
 It falls down comets and money-bags from the top and you have to be careful not to hit any of the comets! But if you hit the moneybag you collect score. It is a game you can play to take your personal record and challange a friend to try beat your score. Good luck!
 
 This project is developed as my second Portfolio Project assignment during my course at Code Institute.
+It is created with HTML for the structure, CSS for all the styling and then JavaScript to make it a interactive frontend site.
 
 
 
@@ -55,7 +56,7 @@ This site is about a space adventure, and therefore I wanted it to be colorful a
 ## Colors
 For the colors I going with the colors of the galaxy, that is purple, blue, pink and black. To clarify that this is a game about the space. And the colors matching very good and is great to use togehter.
 ## Fonts
-For the text i chose to go with two Fonts. For the headlines, rubrics and buttons 
+For the text i chose to go with two Fonts. For the headlines, rubrics and buttons I used 'Tourney', it is a fun and great font and make it look more like a game. And for the score and instructions I used 'Roboto', because it is a great font for reading and it goes well with Tourney.
 ## Structure
 
 # Wireframes
@@ -66,6 +67,9 @@ For the text i chose to go with two Fonts. For the headlines, rubrics and button
 
 # Technologies Used
 ## Languages
+1. HTML5
+2. CSS3
+3. JavaScript
 ## Other programmes
 
 # Testing
