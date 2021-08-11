@@ -38,13 +38,20 @@ It is created with HTML for the structure, CSS for all the styling and then Java
 
 
 # UX
+## User goals
+As a first time and a returning visitor am I looking for...
+  * a great way to pass some time.
+  * to visit this site and feel satisfied with the way it is structured.
+  * a site that I can use on my phone, laptop or PC and it works and look good.
+## Project goals
 
-## User stories
- 1. I want a site that is easy to navigate throug.
- 2. I want a site that is fully responsive so I can visit it and use it on every device.
- 3. I want a site that I know what to do and what it is about.
- 4. I want a site that have nice colors and font-sizes so it is easy to see and read.
- 5. I want a site that I understand what to do even if I never visit it before.
+## User Stories
+<b>As a user I want a site that...</b>
+ 1. ...is easy to navigate throug.
+ 2. ... is fully responsive so I can visit it and use it on every device.
+ 3. ... I know what to do and what it is about.
+ 4. ... have nice colors and font-sizes so it is easy to see and read.
+ 5. ... I understand what to do even if I never visit it before.
 ## Site owner goals
 1. Have a nice and tidy website that is easy to see what to do.
 2. Have a great colors theme throug the website that fits the purpose with the site.
@@ -53,16 +60,18 @@ It is created with HTML for the structure, CSS for all the styling and then Java
 5. Have some sort of contact information in the site like social-links to the developer if they have any questions or want to know more.
 ## Design choises
 This site is about a space adventure, and therefore I wanted it to be colorful and an invitation to something fun but also obvious what it is about. I chose the background image and the images on the spaceships in a similar cartooney theme to match.
-## Colors
+## Colours
 For the colors I going with the colors of the galaxy, that is purple, blue, pink and black. To clarify that this is a game about the space. And the colors matching very good and is great to use togehter.
-## Fonts
+## Typography
 For the text i chose to go with two Fonts. For the headlines, rubrics and buttons I used 'Tourney', it is a fun and great font and make it look more like a game. And for the score and instructions I used 'Roboto', because it is a great font for reading and it goes well with Tourney.
-## Structure
+
 
 # Wireframes
 
 # Features
 ## Existing Features
+### Header
+
 ## Features Left to Implement
 
 # Technologies Used
