@@ -203,6 +203,7 @@ player, obstacle(comets) and money*/
     position: relative;
     margin: 0 auto;
     overflow: hidden;
+    box-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.1em blue;
 }
 #score{
     font-family: Roboto, Touney;
