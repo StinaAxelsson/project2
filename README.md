@@ -38,13 +38,13 @@ It is created with HTML for the structure, CSS for all the styling and then Java
   * [Acknowledgements](https://github.com/StinaAxelsson/spacerace-project2#acknowledgements)
 
 # UX
-This is what I have 
+
 ## User goals
 As a first time and a returning visitor am I looking for...
   * a great way to pass some time.
   * to visit this site and feel satisfied with the way it is structured.
   * a site that I can use on my phone, laptop or PC and it works and look good.
-  * somewhere to interact with the developer if something is wrong or just want to know or see more.
+  * somewhere to allow users to visit the developers social media.
 
 ## User Stories
 <b>As a user I want a site that...</b>
@@ -63,6 +63,7 @@ As a first time and a returning visitor am I looking for...
 This site is about a space adventure, and therefore I wanted it to be colorful and an invitation to something fun but also obvious what it is about. I chose the background image and the images on the spaceships in a similar cartooney theme to match.
 ## Colours
 For the colours I going with the colors of the galaxy, that is purple, blue, pink and black. To clarify that this is a game about the space. And the colours matching very good and is great to use togehter.
+
 ## Typography
 For the text i chose to go with two Fonts. For the headlines, rubrics and buttons I used 'Tourney', it is a fun and great font and make it look more like a game. And for the score and instructions I used 'Roboto', because it is a great font for reading and it goes well with Tourney.
 ## Scope
