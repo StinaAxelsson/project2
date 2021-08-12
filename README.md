@@ -1,5 +1,6 @@
 # [SPACE RACE](https://stinaaxelsson.github.io/spacerace-project2/)
 <b>Author:</b> Stina Carolin Axelsson
+![alt text](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/responsive.png "Logo Title Text 1")
 # Project Description
 Be ready for a little adventure in the outer space, in this small web-browser game!
 First you have to chose a spaceship to travel in, and then you are ready to play. 
