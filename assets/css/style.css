@@ -356,13 +356,16 @@ footer{
 
 }
 /*Style for smaller screens up to 340px*/
-@media screen and (max-width: 340px){
+@media screen and (max-width: 340px) and ( min-height: 480px){
     .headline {
         font-size: 30px;
     }
 
     h1{
         font-size: 40px;
+    }
+    .menu-container{
+        height: fit-content;
     }
     .how-to-container{
         background-color: rgba(255, 230, 242, 0.4);
@@ -387,5 +390,8 @@ footer{
     .headline{
         padding: 0px;
         font-size: 35px;
+     }
+     .social-media i {
+         font-size: 25px;
      }
 }
