@@ -81,6 +81,10 @@ For the text i chose to go with two Fonts. For the headlines, rubrics and button
 
 
 # Wireframes
+Here is my wireframes
+* [Web/Desktop](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/web%20-%20all.pdf)
+* [Tablet](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/tablet%20-all.pdf)
+* [Mobile](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/mobile%20-%20all.pdf)
 
 # Features
 Here I explain my chose of design and structure on the website and all of the features. With screenshots to see what I describe. 
