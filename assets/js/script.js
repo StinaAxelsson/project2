@@ -43,7 +43,7 @@ window.addEventListener("keydown", (e) => {
 /**
  * This function create new divs with obstacles/comets in random order.
  */
-let = createObstacle = setInterval(function() {
+  let createObstacle = setInterval(function() {
   const comet = document.createElement('div');
   comet.classList.add('comets');
   comet.style.left = Math.floor(Math.random() * 300) + 'px';
@@ -152,6 +152,7 @@ setTimeout(() => {
 }
 /**
  * Function that set the image of spaceship as the player, despite on what spaceship the user choose in the "start game" page.
+ * togheter with the start-game.js script.
  */
 function setPlayerImage(){
   const imageUrl = localStorage.getItem('playerImageUrl');

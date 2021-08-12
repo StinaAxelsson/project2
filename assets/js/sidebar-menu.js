@@ -1,4 +1,3 @@
-
 /**
  * This function make the sidebar menu opens when clicked on the hamurger icon
  */
