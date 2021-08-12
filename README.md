@@ -170,11 +170,7 @@ For deploy this site I had to follow this steps:
 Here is my deployed live link: https://stinaaxelsson.github.io/spacerace-project2/
 
 # Credits
- 
- 
 
-
-https://freesound.org/people/The-Sacha-Rush/sounds/336935/ -coin sound
 ## Content and code
 * [Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow) - The CSS box/text shadow
 * [W3School](https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp) - The sidebar/hamburger menu code
