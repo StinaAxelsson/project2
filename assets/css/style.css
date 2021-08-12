@@ -320,7 +320,8 @@ footer{
 
     .menu-container{
         width: 100%;
-        margin-top: 0px;
+        margin-top: 0%;
+        
     }
     .open-btn {
         width: 35px;
@@ -347,6 +348,9 @@ footer{
     .how-to-text{
         font-size: 15px;
         padding: 5px;
+    }
+    .how-to-container{
+        height: 500px
     }
     #score{
         margin: 10px;
