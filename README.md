@@ -1,6 +1,6 @@
 # [SPACE RACE](https://stinaaxelsson.github.io/spacerace-project2/)
 <b>Author:</b> Stina Carolin Axelsson
-![alt text](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/responsive.png "Logo Title Text 1")
+![alt text](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/responsive.png)
 # Project Description
 Be ready for a little adventure in the outer space, in this small web-browser game!
 First you have to chose a spaceship to travel in, and then you are ready to play. 
@@ -64,18 +64,19 @@ As a first time and a returning visitor am I looking for...
 This site is about a space adventure, and therefore I wanted it to be colorful and an invitation to something fun but also obvious what it is about. I chose the background image and the images on the spaceships in a similar cartooney theme to match.
 ## Colours
 For the colours I going with the colors of the galaxy, that is purple, blue, pink and black. To clarify that this is a game about the space. And the colours matching very good and is great to use togehter.
+![alt text](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/colortheme.png)
 
 ## Typography
 For the text i chose to go with two Fonts. For the headlines, rubrics and buttons I used 'Tourney', it is a fun and great font and make it look more like a game. And for the score and instructions I used 'Roboto', because it is a great font for reading and it goes well with Tourney.
-## Scope
+
 ## Structure
 <b>This is a simple browser game with no scroll on the pages. With the basic structure of:</b>
 
 - Header
-  * On the top with the title. 
+  * On the top with the title, fully responsive and give all the information that needed. 
 
 - Body 
-  * Contains buttons to navigate, intructions, the game itself and a hamburger icon for the sidebar menu.
+  * Contains the gamespace, buttons to navigate, intructions, the game itself and a hamburger icon for the sidebar menu.
 
 - Footer
   * Information of the developer and icons with links to the owners social media.
@@ -83,7 +84,8 @@ For the text i chose to go with two Fonts. For the headlines, rubrics and button
 
 
 # Wireframes
-Here is my wireframes
+Here is my wireframes.
+I have change the game title during the time of this project. But otherwise I have stick this model as much as I could, some of the features have I not implement because of the time limit and my reduced knowledge of javascript. 
 * [Web/Desktop](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/web%20-%20all.pdf)
 * [Tablet](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/tablet%20-all.pdf)
 * [Mobile](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/mobile%20-%20all.pdf)
@@ -96,25 +98,33 @@ Here I explain my chose of design and structure on the website and all of the fe
    * The navigation is a small box in the left corner with the hamburger icon and appear when you are on antoher page then the start/index page.
    * On the start page, the user navigate forward with the two buttons with two choises, to read the instructions or just start the game.
    * sidebar opens when the user press the hamburger icon, and contains a menu with all of the pages.
-
+![alt text](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/title.png)
+![alt text](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/navbutton.png)
   * <b>Menu container</b>
     * This feature is the container that holds the buttons on the start page and the information from the "how to play" page and the "Start Game" page. 
+    ![alt text](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/startgame.png)
   * <b>Buttons</b>
     * All of the buttons have the same colour theme and fonts. The startpage have two big buttons that will get the user to the game istructions or to choose a player.
     * On both "how to play" and "Start Game" pages there is a "back" button.
+    ![alt text](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/startgame.png) FIX
   * <b>Instructions</b>
     * This page is a short text with information of how to get startet with the game and how it works.
+    ![alt text](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/howto.png)
   * <b>Choose Spaceship</b>
     * On the "Star game" page, you will first choose witch spaceship you want to play as in the game later on. There is three images of different spaceships. I have chose spaceships that people tend to know about. As the "Millennuim-Falcon" from Star Wars and also the "USS-Discovery", and the third one called Rebellian Ship. So the user can choose it favorit ship.
     * The images is buttons, so when a user is clicking on one of them, it takes them to the game and it will start automatically.
+      ![alt text](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/chooseplayer.png)
   * <b>Game board box</b>
     * This page contain the game and here is where the user interact with the site. The game starts automatically and the user control the spaceship with the keyboard arrow left or right on a desktop/PC, and move it on the screen on a touch device. 
     * Score is increase when the spaceship hit a moneybag.
     * Game over if the spaceship hit a comet that is falling down from top of the gameboard box.
     * A "play again" button is shown in the gameover box when the game is over, to restart.
+    ![alt text](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/game.png)
+    ![alt text](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/gameover.png)
   * <b>Footer and Social media links</b>
     * In the footer, there is a small paragraph with a sign of who has developed the game and site.
     * Underneath the paragraph, there is icons with links that opens up in a new tablet and take the user to the developeres social media.
+    ![alt text](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/footer.png)
 
 
 ## Features Left to Implement
@@ -156,9 +166,15 @@ My biggest problem that caused a lot of errors and bugs and what I did to fix it
 
 ## Validator Testing
 ### HTML Result
+  ![alt text](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/htmlvalidate.png)
 ### CSS Result
+  ![alt text](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/cssvalidat.png)
 ### JavaScript Result
+  ![alt text](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/jsvalida.png)
+  ![alt text](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/js2validate.png)
+  ![alt text](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/js3validate.png)
 ## Lighthouse Testing
+  ![alt text](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/lighthouse.png)
 
 # Deployment
 This project was developed using the Gitpod IDE. In order to save my work I always add commit messenges that describe what I have done and then Git push in the console to save and push it from Gitpod to Github.
