@@ -113,7 +113,7 @@ Here I explain my chose of design and structure on the website and all of the fe
   * <b>Choose Spaceship</b>
     * On the "Star game" page, you will first choose witch spaceship you want to play as in the game later on. There is three images of different spaceships. I have chose spaceships that people tend to know about. As the "Millennuim-Falcon" from Star Wars and also the "USS-Discovery", and the third one called Rebellian Ship. So the user can choose it favorit ship.
     * The images is buttons, so when a user is clicking on one of them, it takes them to the game and it will start automatically.
-      ![alt text](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/chooseplayer.png)
+      ![alt text](https://github.com/StinaAxelsson/spacerace-project2/blob/main/wireframes/back.png)
   * <b>Game board box</b>
     * This page contain the game and here is where the user interact with the site. The game starts automatically and the user control the spaceship with the keyboard arrow left or right on a desktop/PC, and move it on the screen on a touch device. 
     * Score is increase when the spaceship hit a moneybag.
